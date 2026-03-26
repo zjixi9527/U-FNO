@@ -371,14 +371,14 @@ def save_test_results(model, test_loader, file_path):
 
 if __name__ == "__main__":
     # 定义路径
-    data_path = '/public/home/hpc221253/pytorch_gpu/3d/data-3d'
-    test_result_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/test_results/results.h5'
-    checkpoints_adam_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/model/adam'
-    plots_adam_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/kz/adam'
-    logs_adam_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/log/adam'
-    checkpoints_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/model/lbfgs'
-    plots_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/kz/lbfgs'
-    logs_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/log/lbfgs'
+    data_path = './3d/data-3d'
+    test_result_path = './test_results/results.h5'
+    checkpoints_adam_path = './model/adam'
+    plots_adam_path = './kz/adam'
+    logs_adam_path = './log/adam'
+    checkpoints_lbfgs_path = './model/lbfgs'
+    plots_lbfgs_path = './kz/lbfgs'
+    logs_lbfgs_path = './log/lbfgs'
 
     # 超参数
     batch_size = 10
