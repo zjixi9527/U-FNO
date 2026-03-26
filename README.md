@@ -64,7 +64,7 @@ Please note:
 - This GitHub repository mainly provides the source code used in the study.
 - The large-scale dataset is hosted externally.
 - Users should prepare the required data files locally before running full training or prediction.
-- 
+
 ## 5. Representative Result Visualization
 
 Representative comparison between the U-FNO prediction and the spectral element reference solution for source location 1 \((7, 8, 5)\) km. From top to bottom: U-FNO prediction, spectral element solution, and  error.
