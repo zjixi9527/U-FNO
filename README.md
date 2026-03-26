@@ -16,6 +16,10 @@ The full training/validation dataset is not included in this GitHub repository b
 Information on dataset construction is available at:
 https://www.scidb.cn/s/AfyEVb
 
+## Quick Test and Example
+
+A minimal repository quick check is provided:
+
 ## Repository Contents
 
 A typical repository structure is as follows:
@@ -30,6 +34,6 @@ A typical repository structure is as follows:
 ├── U-FNO-wave3d1.py
 ├── u-fno-predict.py
 ├── examples/
-│   ├── quick_test.py
+│   ├── training_example.py
 │   └── README.md
 └── data-3d/
