@@ -17,7 +17,7 @@ Information on dataset construction is available at:
 https://www.scidb.cn/s/AfyEVb
 ## Visual Comparison
 
-Representative comparison between the U-FNO prediction and the spectral element reference solution.  
+Representative comparison between the U-FNO prediction and the spectral element reference solution at source location 1: (7, 8, 5) km.
 From top to bottom: **U-FNO prediction**, **spectral element solution**, and **absolute error**.
 
 ![./assets/gits/1.gif](https://github.com/zjixi9527/U-FNO/blob/main/1.gif)
