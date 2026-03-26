@@ -18,3 +18,18 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
+## Data
+
+The full training/validation dataset is not included in this GitHub repository because of its large size and GitHub storage limitations.
+
+Information on dataset construction is available at:
+https://www.scidb.cn/s/AfyEVb
+
+Only a minimal example for quick testing is provided in the `examples/` folder.
+
+## Quick Test
+
+To verify that the code can run correctly, use:
+
+```bash
+python examples/quick_test.py
