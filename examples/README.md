@@ -1,8 +1,8 @@
 # Examples
 
-This folder contains a minimal quick test for repository verification.
+This folder contains example scripts for repository verification and basic usage demonstration.
 
-## Quick Test
+## 1. Repository Quick Check
 
 Run:
 
