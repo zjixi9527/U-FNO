@@ -39,3 +39,5 @@ A typical repository structure is as follows:
 │   ├── training_example.py
 │   └── README.md
 └── data-3d/
+│   ├── data-main.py
+│   └── README.md
