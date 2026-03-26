@@ -64,8 +64,14 @@ Please note:
 - This GitHub repository mainly provides the source code used in the study.
 - The large-scale dataset is hosted externally.
 - Users should prepare the required data files locally before running full training or prediction.
+- 
+## 5. Representative Result Visualization
 
-## 5. Quick Test
+Representative comparison between the U-FNO prediction and the spectral element reference solution for source location 1 \((7, 8, 5)\) km. From top to bottom: U-FNO prediction, spectral element solution, and  error.
+
+![Representative comparison between the U-FNO prediction and the spectral element reference solution for source location 1](https://github.com/zjixi9527/U-FNO/blob/main/1.gif)
+
+## 6. Test
 
 A minimal quick test is provided to verify that the repository is correctly downloaded and that the Python environment is properly configured.
 
@@ -86,25 +92,25 @@ Expected result:
 - reports required packages as available,
 - and confirms that the main repository files are present.
 
-## 6. Main Scripts
+## 7. Main Scripts
 
-### 6.1 Training scripts
+### 7.1 Training scripts
 - `U-FNO-wave3d1.py`: main training script for the proposed U-FNO model.
 - `fno-wave3d.py`: training script for the baseline FNO model.
 
-### 6.2 Prediction scripts
+### 7.2 Prediction scripts
 - `u-fno-predict.py`: prediction/inference script for the trained U-FNO model.
 - `fno-predict.py`: prediction/inference script for the trained FNO model.
 
-### 6.3 Model definition
+### 7.3 Model definition
 - `FNO_2D.py`: neural operator model components used by the project.
 
-### 6.4 Additional folders
+### 7.4 Additional folders
 - `model/`: model-related files or saved checkpoints.
 - `data-3d/`: data folder used by the scripts.
 - `examples/`: minimal example and quick test files.
 
-## 7. How to Use
+## 8. How to Use
 
 ### Step 1: Install dependencies
 
@@ -142,7 +148,7 @@ Example:
 python u-fno-predict.py
 ```
 
-## 8. Notes on Paths and Data
+## 9. Notes on Paths and Data
 
 Some scripts may require users to modify:
 - input data paths,
@@ -151,7 +157,7 @@ Some scripts may require users to modify:
 
 Before running full experiments, please update these paths according to your local environment.
 
-## 9. Reproducibility Note
+## 10. Reproducibility Note
 
 This repository is intended to provide public access to the source code used in the study.  
 Because the full dataset is large, the repository hosts the code and a lightweight verification example, while the dataset construction details and part of the data are provided through Science Data Bank.
