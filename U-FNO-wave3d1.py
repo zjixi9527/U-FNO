@@ -638,13 +638,13 @@ def train_model(model, optimizer, scheduler, num_epochs, data_path, batch_size=2
 
 if __name__ == "__main__":
     # 定义路径
-    data_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/data-3d'
-    checkpoints_adam_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/model/adam'
-    plots_adam_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/kz/adam'
-    logs_adam_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/log/adam'
-    checkpoints_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/model/lbfgs'
-    plots_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/kz/lbfgs'
-    logs_lbfgs_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/log/lbfgs'
+    data_path = './data-3d'
+    checkpoints_adam_path = './model/adam'
+    plots_adam_path = './kz/adam'
+    logs_adam_path = './log/adam'
+    checkpoints_lbfgs_path = './lbfgs'
+    plots_lbfgs_path = './kz/lbfgs'
+    logs_lbfgs_path = './log/lbfgs'
 
     # 超参数
     batch_size = 1
