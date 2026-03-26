@@ -386,9 +386,9 @@ def save_rmse_to_txt(rmse, filename, index):
 
 if __name__ == "__main__":
     # 定义路径
-    model_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/model/adam/model_epoch_200.pth'  # 已训练好的模型路径
-    test_result_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/test_results/predictions.h5'  # 保存预测结果
-    rmse_result_path = '/public/home/hpc221253/pytorch_gpu/3d/FNO_result/test_results/rmse_results.txt'  # 保存RMSE的路径
+    model_path = './model/adam/model_epoch_200.pth'  # 已训练好的模型路径
+    test_result_path = './test_results/predictions.h5'  # 保存预测结果
+    rmse_result_path = './test_results/rmse_results.txt'  # 保存RMSE的路径
     data_path = '/public/home/hpc221253/pytorch_gpu/3d/data-3d'  # 数据路径
 
     # 超参数
