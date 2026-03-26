@@ -479,11 +479,11 @@ def batch_predict(model, input_dir, output_dir, num_files=1, batch_size=2):
     print(f"Timing saved to: {timing_csv}")
 
 # 设置路径
-input_directory = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/yuceduibi/source'  # 输入 H5 文件目录
-output_directory = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/yuceduibi/predicate'  # 输出预测结果目录
+input_directory = './source'  # 输入 H5 文件目录
+output_directory = './predicate'  # 输出预测结果目录
 
 # 加载训练好的模型权重
-checkpoints_path = '/public/home/hpc221253/pytorch_gpu/3d-menyuan/model/adam/model_epoch_200.pth'
+checkpoints_path = './model/adam/model_epoch_200.pth'
 
 # 创建模型实例
 model = Uno3D_T10(in_width=6, width=4, factor=1)
