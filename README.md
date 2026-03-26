@@ -15,7 +15,12 @@ The full training/validation dataset is not included in this GitHub repository b
 
 Information on dataset construction is available at:
 https://www.scidb.cn/s/AfyEVb
+## Visual Comparison
 
+Representative comparison between the U-FNO prediction and the spectral element reference solution.  
+From top to bottom: **U-FNO prediction**, **spectral element solution**, and **absolute error**.
+
+![U-FNO vs spectral element solution]((https://github.com/zjixi9527/U-FNO/blob/main/assets/gits/%E5%9B%BE%E7%89%871.gif)https://github.com/zjixi9527/U-FNO/blob/main/assets/gits/%E5%9B%BE%E7%89%872.gif)
 
 ## Repository Contents
 
