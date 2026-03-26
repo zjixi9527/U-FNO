@@ -20,7 +20,7 @@ https://www.scidb.cn/s/AfyEVb
 Representative comparison between the U-FNO prediction and the spectral element reference solution.  
 From top to bottom: **U-FNO prediction**, **spectral element solution**, and **absolute error**.
 
-![U-FNO vs spectral element solution](assets/gits/1.gif)
+!([U-FNO vs spectral element solution](https://github.com/zjixi9527/U-FNO/blob/main/assets/gits/1.gif))
 
 ## Repository Contents
 
