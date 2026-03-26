@@ -1,35 +1,29 @@
-# U-FNO: Rapid Prediction of 3D Seismic Wavefields
+# U-FNO: Rapid Prediction of Three-Dimensional Seismic Wavefields with Random Sources Using a U-Shaped Fourier Neural Operator
 
-This repository contains the source code for the paper:
+This repository provides the source code associated with the paper:
 
-**Rapid Prediction of Three-Dimensional Seismic Wavefields with Random Sources Using U-shaped Fourier Neural Operator**
+**Rapid Prediction of Three-Dimensional Seismic Wavefields with Random Sources Using a U-Shaped Fourier Neural Operator**
 
 ## Overview
-This project implements a U-shaped Fourier Neural Operator (U-FNO) framework for rapid prediction of 3D seismic wavefields in complex sites.
 
-## Files
-- `U-FNO-wave3d1.py`: main U-FNO model/training script
-- `u-fno-predict.py`: inference script
-- `fno-wave3d.py`: baseline FNO-related script
-- `fno-predict.py`: baseline inference script
+Three-dimensional seismic wavefield simulation in complex sites is computationally expensive, especially when many earthquake source locations need to be considered. This repository contains the implementation of a U-shaped Fourier Neural Operator (U-FNO) framework for rapid prediction of three-dimensional seismic wavefields.
 
-## Requirements
-Install dependencies with:
+The repository includes model definition files, training scripts, prediction scripts, and a minimal quick test/example for basic verification.
 
-```bash
-pip install -r requirements.txt
-## Data
+## Repository Contents
 
-The full training/validation dataset is not included in this GitHub repository because of its large size and GitHub storage limitations.
+A typical repository structure is as follows:
 
-Information on dataset construction is available at:
-https://www.scidb.cn/s/AfyEVb
-
-Only a minimal example for quick testing is provided in the `examples/` folder.
-
-## Quick Test
-
-To verify that the code can run correctly, use:
-
-```bash
-python examples/quick_test.py
+```text
+.
+├── README.md
+├── requirements.txt
+├── FNO_2D.py
+├── fno-wave3d.py
+├── fno-predict.py
+├── U-FNO-wave3d1.py
+├── u-fno-predict.py
+├── examples/
+│   ├── quick_test.py
+│   └── README.md
+└── data-3d/
