@@ -16,9 +16,6 @@ The full training/validation dataset is not included in this GitHub repository b
 Information on dataset construction is available at:
 https://www.scidb.cn/s/AfyEVb
 
-## Quick Test and Example
-
-A minimal repository quick check is provided:
 
 ## Repository Contents
 
