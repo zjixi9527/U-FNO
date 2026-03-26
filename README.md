@@ -9,6 +9,12 @@ This repository provides the source code associated with the paper:
 Three-dimensional seismic wavefield simulation in complex sites is computationally expensive, especially when many earthquake source locations need to be considered. This repository contains the implementation of a U-shaped Fourier Neural Operator (U-FNO) framework for rapid prediction of three-dimensional seismic wavefields.
 
 The repository includes model definition files, training scripts, prediction scripts, and a minimal quick test/example for basic verification.
+## Data
+
+The full training/validation dataset is not included in this GitHub repository because of its large size and GitHub storage limitations.
+
+Information on dataset construction is available at:
+https://www.scidb.cn/s/AfyEVb
 
 ## Repository Contents
 
